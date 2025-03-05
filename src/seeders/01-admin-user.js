@@ -2,7 +2,7 @@
  * Seeder script to create an initial admin user
  */
 'use strict';
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 
 module.exports = {
   // Apply seeder
